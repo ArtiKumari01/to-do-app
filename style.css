@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Maven Pro', sans-serif;
+    min-height: 100vh;
+}
+.container{
+    /* width: 400px; */
+    /* padding: 33%; */
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+h2{
+    text-decoration: underline;
+    padding-bottom: 6px;
+}
+input{
+    width: 650px;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid rgb(216, 208, 208);
+    border-radius: 10px;
+    /* border: none; */
+    outline: none;
+    /* position: relative;
+    display: inline-block;
+    padding-right: 20px; */
+}
+input::placeholder{
+	color: gray;
+	font-size: medium;
+}
+.inputs{
+    position: absolute;
+    bottom: 50px;
+}
+/* .inputs .fa-solid{
+    position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #888;
+} */
+p{
+    font-size: 12px;
+	color: rgb(121, 119, 119);
+	/* margin-bottom: 0px;
+	padding-top: 450px; */
+}
+.para{
+    position: absolute;
+    bottom: 20px;
+}
+button{
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.text{
+    position: absolute;
+    margin-top: 150px;
+}
+.text ul{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+    margin: 4px;
+    height: 25px;
+    width: 600px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
